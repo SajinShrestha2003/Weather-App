@@ -55,9 +55,9 @@ export default function WeatherPage() {
             </form>
 
             {!weatherData ? (
-                <h1>No Data Found</h1>
+                <h2>No Data Found</h2>
             ) : (
-                <div>
+                <div className="secondContainer">
                     <h3>{weatherData.name}</h3>
                     <div className="location">
                         <p>Latitude: {weatherData.coord.lat}</p>

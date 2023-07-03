@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,6 +30,9 @@ body {
     font-size: 2rem;
     /* background-color: var(--light-green); */
     background: inherit;
+}
+.secondContainer{
+    border: 2px solid black;
 }
 
 input {
