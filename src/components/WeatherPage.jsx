@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Swal from "sweetalert2";
+import Swal from "sweetalert2"; //npm i sweetalert2
 import "./WeatherPage.css";
 
 const api = {
