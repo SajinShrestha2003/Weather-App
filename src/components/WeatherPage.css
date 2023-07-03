@@ -1,0 +1,85 @@
+:root {
+    --black: #4b4453;
+    --dark-green: #4c8076;
+    --medium-green: #00c9a8;
+    --light-green: #c4fcf0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+    background-image: url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=400x300);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 10%;
+    margin-left: 24%;
+    width: 50%;
+
+    font-size: 2rem;
+    /* background-color: var(--light-green); */
+    background: inherit;
+}
+
+input {
+    outline: none;
+    background: none;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin-top: 1.1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    font-size: 1.4rem;
+}
+
+input::placeholder {
+    color: var(--black);
+}
+
+.btn {
+    background: var(--medium-green);
+    color: #fff;
+    border: none;
+    padding: 14px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: var(--dark-green);
+}
+
+h3 {
+    text-transform: uppercase;
+}
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.location{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
