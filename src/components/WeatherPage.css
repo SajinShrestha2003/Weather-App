@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=400x300);
+    background-image: url(./bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
