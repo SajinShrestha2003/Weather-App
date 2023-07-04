@@ -28,7 +28,7 @@ export default function WeatherPage() {
                 }
                 let data = await res.json();
 
-                // console.log(data);
+                console.log(data);
                 setWeatherData(data);
                 setLocation("");
             } catch (error) {
@@ -65,7 +65,7 @@ export default function WeatherPage() {
                     </div>
                     <div className="dataContainer">
                         <p>Temperature: {weatherData.main.temp}°C</p>
-                        <p>Condition: {weatherData.weather[0].main}</p>
+                        <p>Condition: {weatherData.weather[1].description}</p>
                         <p>Wind Speed: {weatherData.wind.speed} knots</p>
                         <p>Country: {weatherData.sys.country}</p>
                     </div>
