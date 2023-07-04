@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url(./bg.png);
+    background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ body {
     /* background-color: var(--light-green); */
     background: inherit;
 }
-.secondContainer{
+.secondContainer {
     border: 2px solid black;
 }
 
@@ -78,7 +78,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-.location{
+.location {
     display: flex;
     text-align: center;
     justify-content: center;
