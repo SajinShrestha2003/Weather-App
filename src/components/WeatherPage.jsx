@@ -66,7 +66,7 @@ export default function WeatherPage() {
                     <div className="dataContainer">
                         <p>Temperature: {weatherData.main.temp}°C</p>
                         <p>Condition: {weatherData.weather[0].description}</p>
-                        <p>Wind Speed: {weatherData.wind.speed} knots</p>
+                        <p>Wind Speed: {weatherData.wind.speed} mph</p>
                         <p>Country: {weatherData.sys.country}</p>
                     </div>
                 </div>
